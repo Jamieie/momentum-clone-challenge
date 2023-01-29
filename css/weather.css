@@ -1,0 +1,8 @@
+#weather {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 12px;
+}
