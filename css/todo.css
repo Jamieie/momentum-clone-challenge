@@ -3,10 +3,13 @@
     border-bottom: 1px solid rgba(0,0,0,0.6);
     background-color: rgba(0,0,0,0);
     text-align: center;
-    width: 200px;
+    width: 230px;
     height: 30px;
     font-size: 18px;
     transition: all 0.1s ease-in-out;
+    position:absolute;
+    left: 15%;
+    top: 230px;
 }
 
 #todo-form input::placeholder {
@@ -19,10 +22,13 @@
 }
 
 #todo-list {
-    width: 200px;
-    background-color: rgb(0,0,0,0.2);
+    width: 230px;
+    background-color: rgb(255,255,255,0.7);
     padding: 0px 3px;
     font-size: 18px;
+    position:absolute;
+    left: 15%;
+    top: 270px;
 }
 
 #todo-list li {
